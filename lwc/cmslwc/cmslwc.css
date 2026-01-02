@@ -1,0 +1,10 @@
+.screenshot-target {
+    border: 4px solid green;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.output canvas {
+    border: 1px solid #ccc;
+    margin-top: 16px;
+}

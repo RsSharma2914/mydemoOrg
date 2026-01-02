@@ -1,0 +1,23 @@
+.applyBtn {
+    font-weight: 400;
+    padding: 6px 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    line-height: normal;
+}
+.applyDisable {
+    color: #fff;
+    background-color: #bdbfbf;
+    border: 1px solid #bdbfbf;
+}
+.applyEnable{
+    background-color : #FFFFFF;
+    color: #3D515A;
+    border: 0.5px solid rgba(20, 20, 20, 0.3);
+}
+.center_block {
+    text-align: center;
+    padding: 0 10px;
+    max-width: 375px;
+    margin: 0 auto;
+}

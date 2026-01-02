@@ -1,0 +1,21 @@
+<!-- sldsValidatorIgnore -->
+<template>
+        <lightning-card>
+                <h3 slot="title" class="slds-text-title_bold">
+                  <lightning-icon
+                    icon-name="standard:client"
+                    size="small"
+                  ></lightning-icon>
+                  <span class="slds-m-left_small"
+                    >Contacts</span
+                  >
+                </h3>
+                </lightning-card>
+    <lightning-datatable
+                key-field="id"
+                data={data}
+                columns={columns}
+                onrowaction= {handleSelected}
+                >
+        </lightning-datatable> 
+</template>

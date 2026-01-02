@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Display" icon-name="action:preview">
+        <template lwc:if={nameoftheGuest}>
+            <h1>Hello, {nameoftheGuest}!</h1><br />
+            <content>Welcome to the show!!!</content>
+        </template>
+        <template lwc:else>
+            <h2>Oh snap! no one there to greet!!</h2>
+        </template>
+    </lightning-card>
+</template>

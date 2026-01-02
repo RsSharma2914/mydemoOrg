@@ -1,0 +1,15 @@
+<template>
+    <template if:true={showCaptcha}>
+        <div class="center_block">
+            <iframe name="captchaFrame" id="myIframe" src={CaptchaHtmlFile} width="318" height={iframeHeight} 
+                style="border:0px; overflow:hidden; margin-top: 8px"></iframe>
+            <template if:true={enabledProceedBtn}>
+                <span><button class={applyBtnClass} onclick={handleProceedAfterCaptchVerification}>Proceed</button></span>
+            </template>
+            <template if:false={enabledProceedBtn}>
+                <span><button class={applyBtnClass} disabled>Proceed</button>
+                </span>
+            </template>
+        </div>
+    </template>
+</template>
